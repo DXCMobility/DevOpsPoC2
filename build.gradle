@@ -24,3 +24,10 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+systemProp.http.proxyHost=proxy.sgp.hp.com
+systemProp.http.proxyPort=8080
+
+systemProp.https.proxyHost=proxy.sgp.hp.com
+systemProp.https.proxyPort=8080
+
