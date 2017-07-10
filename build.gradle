@@ -4,7 +4,7 @@ buildscript {
     repositories {
         //jcenter()
         jcenter {
-            url "http://jcenter.bintray.com/"  <=THIS IS THE LINE THAT MAKES THE DIFFERENCE
+            url "http://jcenter.bintray.com/"
         }
     }
     dependencies {
